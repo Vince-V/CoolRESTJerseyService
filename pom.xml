@@ -50,5 +50,10 @@
 			<artifactId>jersey-core</artifactId>
 			<version>1.19</version>
 		</dependency>
+		<!--dependency>
+			<groupId>io.reactivex</groupId>
+			<artifactId>rxjava</artifactId>
+			<version>1.0.2</version>
+		</dependency-->
 	</dependencies>
 </project>
