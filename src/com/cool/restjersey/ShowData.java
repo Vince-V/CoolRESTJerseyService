@@ -10,8 +10,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 import org.json.JSONException;
 import org.json.JSONObject;
-import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.LocalDateTime;
 
@@ -33,7 +31,7 @@ public class ShowData {
 	  json.put("More","Data1"); 
 	  json.put("More","Data2"); 
 		
-		String result = "@Produces(\"application/json\") Output: \n\nThe Data at " + dateTimeString + " :\n\n" + json;	
+		String result = "@Produces(\"application/json\") Output at "+ dateTimeString +": \n\n" +"The Data:\n\n" + json;	
 	  return Response.status(200).entity(result).build();
 	}
 	
