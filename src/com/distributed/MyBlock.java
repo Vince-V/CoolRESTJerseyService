@@ -1,5 +1,9 @@
 package com.distributed;
 
+import javax.xml.bind.DatatypeConverter;
+import java.util.*;
+import java.security.*;
+
 public class MyBlock {
 	
 	private long time; 
@@ -12,5 +16,16 @@ public class MyBlock {
         this.num = num; 
         this.priorHash = priorHash; 
     }
+	
+	public String getStringOfBlock(){
+		
+		
+		return "";
+	}
+	
+	public boolean validate(String block){
+		
+		return true;
+	}
 
 }
