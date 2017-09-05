@@ -19,13 +19,22 @@ public class MyBlock {
 	
 	public String getStringOfBlock(){
 		
+		String theBlock = "";
+		
 		
 		return "";
 	}
+	
 	
 	public boolean validate(String block){
 		
 		return true;
 	}
-
+    
+	public ArrayList<String> getDataAboutTransations(String transAddr) {
+		ArrayList<String> dataAndAdrresses = new ArrayList();	
+		
+		return dataAndAdrresses;
+		
+	}
 }
